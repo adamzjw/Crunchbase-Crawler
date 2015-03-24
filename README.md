@@ -3,6 +3,12 @@ Crunchbase-Crawler via API
 
 A crawler fetchs company's json data by its permalinks via Crunchbase's API
 
+How to use:
+1. create ./json folder
+2. fill fetch_list and keys
+3. set status.txt first line to 0 and delete all lines below (including) 3rd line
+4. run the crawler
+
 file structure:
 - crawler.py: python script
 - fetch_list.txt: file contains target permalinks
